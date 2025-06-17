@@ -1,0 +1,227 @@
+.reports-root {
+  display: flex;
+  min-height: 100vh;
+  background: #f6f7fa;
+}
+.reports-sidebar {
+  width: 240px;
+  background: #fff;
+  padding: 32px 0 0 0;
+  box-sizing: border-box;
+  box-shadow: 1px 0 0 #ececec;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.sidebar-title {
+  font-size: 22px;
+  font-weight: 700;
+  margin-left: 32px;
+  margin-bottom: 18px;
+}
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+.sidebar-link {
+  color: #222;
+  text-decoration: none;
+  font-size: 17px;
+  padding: 8px 32px;
+  border-radius: 6px 0 0 6px;
+  transition: background 0.2s, color 0.2s;
+}
+.sidebar-link.active, .sidebar-link:hover {
+  background: #eaf1ff;
+  color: #2563c9;
+  font-weight: 500;
+}
+.reports-main {
+  flex: 1;
+  padding: 32px 32px 24px 32px;
+}
+.reports-header {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-bottom: 18px;
+}
+.reports-header h1 {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0;
+}
+.reports-warning {
+  color: #e53935;
+  font-size: 15px;
+  margin-left: 12px;
+}
+.reports-new-btn {
+  margin-left: auto;
+  background: #3169e6;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 24px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.reports-new-btn:hover {
+  background: #2341a4;
+}
+.reports-filters {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  margin-bottom: 18px;
+}
+.reports-sort {
+  font-size: 16px;
+  color: #222;
+}
+.reports-sort-input {
+  margin-left: 8px;
+  padding: 6px 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  font-size: 15px;
+  background: #fafbfc;
+}
+.reports-search {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.reports-search-input {
+  padding: 6px 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  font-size: 15px;
+  background: #fafbfc;
+}
+.reports-search-toggle {
+  color: #2563c9;
+  font-weight: 500;
+  margin-left: 6px;
+}
+.reports-search-label {
+  color: #222;
+  font-size: 15px;
+  margin-left: 4px;
+}
+.reports-list {
+  margin-bottom: 24px;
+}
+.report-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  padding: 22px 20px 18px 20px;
+  width: 420px;
+  box-sizing: border-box;
+  margin-bottom: 18px;
+}
+.report-title {
+  font-size: 19px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.report-progress {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+.progress-bar {
+  flex: 1;
+  height: 6px;
+  background: #eaf1ff;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.progress-bar-inner {
+  height: 100%;
+  background: #3169e6;
+  border-radius: 4px;
+}
+.report-delete {
+  color: #888;
+  font-size: 14px;
+}
+.report-format {
+  color: #444;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.report-actions {
+  display: flex;
+  gap: 10px;
+}
+.report-download {
+  background: #3169e6;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 18px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.report-download:hover {
+  background: #2341a4;
+}
+.report-archive {
+  background: #e0e0e0;
+  color: #888;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 18px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: not-allowed;
+}
+.report-trash {
+  background: none;
+  border: none;
+  color: #e53935;
+  font-size: 18px;
+  cursor: pointer;
+  margin-left: 8px;
+}
+.reports-empty {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  padding: 32px 0 32px 0;
+  margin-top: 18px;
+  text-align: center;
+}
+.empty-icon {
+  font-size: 44px;
+  color: #cfd8dc;
+  margin-bottom: 10px;
+}
+.empty-text {
+  color: #888;
+  font-size: 17px;
+  margin-bottom: 16px;
+}
+.empty-create-btn {
+  background: #3169e6;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 32px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.empty-create-btn:hover {
+  background: #2341a4;
+} 
