@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="28f17a6f-7e0c-488d-bfb4-4c5616b6e300" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/FastAPIProject3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api_v1/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api_v1/products/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api_v1/products/crud.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api_v1/products/dependencies.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api_v1/products/schemas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api_v1/products/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api_v1/users/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api_v1/users/managers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api_v1/users/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api_v1/users/services.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api_v1/users/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/model/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/model/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/model/db_helper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/model/product.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/products/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/products/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FastAPI main" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2tkk8g2t9zFj1F29biOw7T0LnM6" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "FastAPI.FastAPIProject3.executor": "Debug",
+    "Python.__init__.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.views.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/ivldv/PycharmProjects/FastAPIProject3",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.black.configuration.BlackFormatterConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ivldv\PycharmProjects\FastAPIProject3" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="FastAPIProject3" type="Python.FastAPI">
+      <option name="file" value="C:\Users\ivldv\PycharmProjects\FastAPIProject3\main.py" />
+      <module name="FastAPIProject3" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/.venv/Scripts/python.exe" />
+      <option name="SDK_NAME" value="uv (FastAPIProject3)" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-b26f3e71634d-JavaScript-PY-251.26094.141" />
+        <option value="bundled-python-sdk-9f8e2b94138c-36ea0e71a18c-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.26094.141" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="28f17a6f-7e0c-488d-bfb4-4c5616b6e300" name="Changes" comment="" />
+      <created>1740903301883</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1740903301883</updated>
+      <workItem from="1740903303090" duration="849000" />
+      <workItem from="1740929326223" duration="51000" />
+      <workItem from="1740929396917" duration="26409000" />
+      <workItem from="1741800191612" duration="939000" />
+      <workItem from="1741935892698" duration="4719000" />
+      <workItem from="1742373562523" duration="829000" />
+      <workItem from="1742545166951" duration="11019000" />
+      <workItem from="1745764333114" duration="782000" />
+      <workItem from="1746349609815" duration="1515000" />
+      <workItem from="1749910752840" duration="5405000" />
+      <workItem from="1750168210509" duration="77000" />
+      <workItem from="1750188744298" duration="9633000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/api_v1/users/services.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/FastAPIProject3$main.coverage" NAME="main Coverage Results" MODIFIED="1741189693540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/FastAPIProject3$FastAPIProject3.coverage" NAME="FastAPIProject3 Coverage Results" MODIFIED="1741938560679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/FastAPIProject3$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1741188932026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_v1" />
+    <SUITE FILE_PATH="coverage/FastAPIProject3$views.coverage" NAME="views Coverage Results" MODIFIED="1741188856892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_v1/products" />
+  </component>
+</project>
