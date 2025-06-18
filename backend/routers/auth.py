@@ -7,8 +7,8 @@ from pydantic import BaseModel, EmailStr
 
 from .. import models, database, auth
 
-router = APIRouter(
-    prefix="/api/auth",
+auth_router = APIRouter(
+    prefix="/auth",
     tags=["auth"]
 )
 
@@ -34,7 +34,7 @@ class Token(BaseModel):
 class TokenData(BaseModel):
     username: Optional[str] = None
 
-@router.post("/register", response_model=User)
+@auth_router.post("/register", response_model=User)
 async def register(user: UserCreate, db: Session = Depends(database.get_db)):
     # Проверяем, существует ли пользователь с таким email
     db_user = db.query(models.User).filter(models.User.email == user.email).first()
@@ -72,7 +72,7 @@ async def register(user: UserCreate, db: Session = Depends(database.get_db)):
             detail="Could not register user"
         )
 
-@router.post("/login", response_model=Token)
+@auth_router.post("/login", response_model=Token)
 async def login(form_data: OAuth2PasswordRequestForm = Depends(), db: Session = Depends(database.get_db)):
     user = auth.authenticate_user(db, form_data.username, form_data.password)
     if not user:
@@ -88,6 +88,6 @@ async def login(form_data: OAuth2PasswordRequestForm = Depends(), db: Session = 
     )
     return {"access_token": access_token, "token_type": "bearer"}
 
-@router.post("/logout")
+@auth_router.post("/logout")
 async def logout(current_user: models.User = Depends(auth.get_current_active_user)):
     return {"message": "Successfully logged out"} 

@@ -1,6 +1,9 @@
+
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from backend.routers import auth, users, sources
+from backend.routers import  users, sources, router_routes
+
+from backend.core.config import settings
 
 app = FastAPI()
 
@@ -14,14 +17,15 @@ app.add_middleware(
 )
 
 # Подключаем роутеры
-app.include_router(auth.router)
-app.include_router(users.router)
+#app.include_router(auth.router_auth)
+#app.include_router(users.user_router)
 app.include_router(sources.router)
 
+app.include_router(router=router_routes, prefix=settings.api_v1_prefix)
 @app.get("/")
 async def root():
     return {"message": "Welcome to Ad Campaign Analytics API"}
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run("backend.main:app", host="0.0.0.0", reload=True, port=8000) 
+    uvicorn.run("backend.main:app", host="localhost", reload=True, port=8001)

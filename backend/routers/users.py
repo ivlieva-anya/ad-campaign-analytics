@@ -4,8 +4,8 @@ from pydantic import BaseModel, EmailStr
 
 from .. import models, database, auth
 
-router = APIRouter(
-    prefix="/api/user",
+user_router = APIRouter(
+    prefix="/user",
     tags=["users"]
 )
 
@@ -20,6 +20,6 @@ class User(UserBase):
     class Config:
         from_attributes = True
 
-@router.get("/profile", response_model=User)
+@user_router.get("/profile", response_model=User)
 async def get_user_profile(current_user: models.User = Depends(auth.get_current_active_user)):
     return current_user 
