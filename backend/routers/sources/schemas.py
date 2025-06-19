@@ -21,3 +21,6 @@ class Source(SourceBase):
 
     class Config:
         from_attributes = True
+
+class SourceUpdateLast(BaseModel):
+    last_scan_date: Optional[datetime] = None
